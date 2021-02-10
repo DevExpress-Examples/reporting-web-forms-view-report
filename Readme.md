@@ -9,9 +9,10 @@
 **[[Run Online]](https://codecentral.devexpress.com/t132094/)**
 <!-- run online end -->
 
+This example demonstrates how to dynamically load a report to the [ASPxWebDocumentViewer](https://docs.devexpress.com/XtraReports/17738/web-reporting/asp-net-webforms-reporting/document-viewer) control at runtime on a button click. 
 
-<p>This example demonstrates how to load a report to <a href="https://documentation.devexpress.com/#XtraReports/CustomDocument5193">ASPxDocumentViewer</a>  control dynamically at runtime.<br /><br />The ASPxDocumentViewer control uses a callback to display a report. According to the <a href="http://msdn.microsoft.com/en-us/library/ms178472%28v=vs.85%29.aspx">ASP.NET Page Life Cycle</a>, the ASP.NET WebForms page state should be restored on all postbacks and callbacks. To make the ASPxDocumentViewer control work correctly, a report that was dynamically assigned to it should be restored when the page is reloaded on a callback.<br /><strong>Take special note</strong> that if the report is not restored on a callback, the ASPxDocumentViewer control remains empty after assigning a report to it.<br /><br />In this code example, the Session variable is used to save the ASPxDocumentViewer state. When the page is loaded for the first time, the Session variable is not yet specified and the ASPxDocumentViewer remains empty. But after the button is clicked, the currently displayed report name is saved into the session (in the btPreview_Click event handler). Then, when the page is reloaded, this name is used to restore the report (in the Page_Load event handler).</p>
+Implement a custom [IWebDocumentViewerReportResolver](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IWebDocumentViewerReportResolver) service. Then, handle a button's client-side `Click` event and pass a report name to the client-side [OpenReport](https://docs.devexpress.com/XtraReports/js-ASPxClientWebDocumentViewer#js_aspxclientwebdocumentviewer_openreport_url_) method.
 
-<br/>
+Note: switch to the 14.1.5 branch to learn how to complete the task for the ASPxWebDocumentViewer control.
 
 
