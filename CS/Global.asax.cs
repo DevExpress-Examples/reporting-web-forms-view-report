@@ -1,3 +1,4 @@
+using DevExpress.XtraReports.Services;
 using DevExpress.XtraReports.Web.WebDocumentViewer;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace T132094 {
     public class Global : System.Web.HttpApplication {
 
         protected void Application_Start(object sender, EventArgs e) {
-            DefaultWebDocumentViewerContainer.Register<IWebDocumentViewerReportResolver, CustomWebDocumentViewerReportResolver>();
+            DefaultWebDocumentViewerContainer.Register<IReportProvider, CustomReportProvider>();            
             DevExpress.XtraReports.Web.ASPxWebDocumentViewer.StaticInitialize();
         }
 

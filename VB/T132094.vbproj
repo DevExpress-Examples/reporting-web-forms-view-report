@@ -188,7 +188,7 @@
       <DependentUpon>ProductsReport.vb</DependentUpon>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="Services\ReportResolver.vb" />
+    <Compile Include="Services\ReportProvider.vb" />
     <Compile Include="Reports\DefaultReport.vb">
       <SubType>Component</SubType>
     </Compile>

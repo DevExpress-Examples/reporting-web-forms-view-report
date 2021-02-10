@@ -1,3 +1,4 @@
+using DevExpress.XtraReports.Services;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Web.WebDocumentViewer;
 using System;
@@ -6,10 +7,9 @@ using System.Linq;
 using System.Web;
 
 namespace T132094.Services {
-    public class CustomWebDocumentViewerReportResolver : IWebDocumentViewerReportResolver {
-        public CustomWebDocumentViewerReportResolver() { }
-        public XtraReport Resolve(string reportUniqueName) {
-            switch (reportUniqueName) {
+    public class CustomReportProvider : DevExpress.XtraReports.Services.IReportProvider {
+        public XtraReport GetReport(string id, ReportProviderContext context) {
+            switch (id) {
                 case "DefaultReport":
                     return new DefaultReport();
                 case "Categories":
@@ -19,11 +19,7 @@ namespace T132094.Services {
                 case "Orders":
                     return new OrdersReport();
                 default:
-                    // Try to create a report using the fully qualified type name.
-                    Type t = Type.GetType(reportUniqueName);
-                    return typeof(XtraReport).IsAssignableFrom(t) ?
-                        (XtraReport)Activator.CreateInstance(t) :
-                        null;
+                    return null;
             }
         }
     }

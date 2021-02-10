@@ -172,7 +172,7 @@
       <DependentUpon>ProductsReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ReportResolver.cs" />
+    <Compile Include="Services\ReportProvider.cs" />
     <Compile Include="Reports\DefaultReport.cs">
       <SubType>Component</SubType>
     </Compile>
