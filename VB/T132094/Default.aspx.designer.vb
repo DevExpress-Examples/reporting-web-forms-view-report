@@ -31,7 +31,7 @@ Namespace T132094
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected cbReportType As Global.DevExpress.Web.ASPxEditors.ASPxComboBox
+		Protected cbReportType As Global.DevExpress.Web.ASPxComboBox
 
 		''' <summary>
 		''' btPreview control.
@@ -40,7 +40,7 @@ Namespace T132094
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected btPreview As Global.DevExpress.Web.ASPxEditors.ASPxButton
+		Protected btPreview As Global.DevExpress.Web.ASPxButton
 
 		''' <summary>
 		''' documentViewer control.
