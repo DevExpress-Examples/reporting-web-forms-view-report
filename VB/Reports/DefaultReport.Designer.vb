@@ -46,7 +46,7 @@
 			' 
 			' xrLabel1
 			' 
-			Me.xrLabel1.Font = New System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Italic)
+			Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Arial", 20F, DevExpress.Drawing.DXFontStyle.Italic)
 			Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(0F, 124.0417F)
 			Me.xrLabel1.Multiline = True
 			Me.xrLabel1.Name = "xrLabel1"
@@ -58,8 +58,8 @@
 			' XtraReport1
 			' 
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.TopMargin, Me.BottomMargin, Me.Detail})
-			Me.Font = New System.Drawing.Font("Arial", 9.75F)
-			Me.Margins = New System.Drawing.Printing.Margins(100, 100, 100, 111)
+			Me.Font = New DevExpress.Drawing.DXFont("Arial", 9.75F)
+			Me.Margins = New DevExpress.Drawing.DXMargins(100, 100, 100, 111)
 			Me.Version = "20.2"
 			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 

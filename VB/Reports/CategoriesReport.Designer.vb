@@ -53,7 +53,7 @@
 			' 
 			' lbHeader
 			' 
-			Me.lbHeader.Font = New System.Drawing.Font("Times New Roman", 36F)
+			Me.lbHeader.Font = New DevExpress.Drawing.DXFont("Times New Roman", 36F)
 			Me.lbHeader.LocationFloat = New DevExpress.Utils.PointFloat(0F, 10.00001F)
 			Me.lbHeader.Name = "lbHeader"
 			Me.lbHeader.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -66,7 +66,7 @@
 			' lbDescription
 			' 
 			Me.lbDescription.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Description]")})
-			Me.lbDescription.Font = New System.Drawing.Font("Times New Roman", 14F)
+			Me.lbDescription.Font = New DevExpress.Drawing.DXFont("Times New Roman", 14F)
 			Me.lbDescription.LocationFloat = New DevExpress.Utils.PointFloat(220F, 53.08332F)
 			Me.lbDescription.Multiline = True
 			Me.lbDescription.Name = "lbDescription"
@@ -94,7 +94,7 @@
 			' lbCategoryName
 			' 
 			Me.lbCategoryName.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[CategoryName]")})
-			Me.lbCategoryName.Font = New System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold)
+			Me.lbCategoryName.Font = New DevExpress.Drawing.DXFont("Times New Roman", 16F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.lbCategoryName.LocationFloat = New DevExpress.Utils.PointFloat(220F, 10.00001F)
 			Me.lbCategoryName.Name = "lbCategoryName"
 			Me.lbCategoryName.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)

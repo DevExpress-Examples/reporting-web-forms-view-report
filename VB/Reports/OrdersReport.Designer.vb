@@ -89,7 +89,7 @@
 			' lbOrderID
 			' 
 			Me.lbOrderID.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[OrderID]")})
-			Me.lbOrderID.Font = New System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold)
+			Me.lbOrderID.Font = New DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.lbOrderID.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
 			Me.lbOrderID.Name = "lbOrderID"
 			Me.lbOrderID.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -106,7 +106,7 @@
 			' lbTitle
 			' 
 			Me.lbTitle.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Title]")})
-			Me.lbTitle.Font = New System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold)
+			Me.lbTitle.Font = New DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.lbTitle.LocationFloat = New DevExpress.Utils.PointFloat(10.00012F, 44.00002F)
 			Me.lbTitle.Name = "lbTitle"
 			Me.lbTitle.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -118,7 +118,7 @@
 			' Detail
 			' 
 			Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel1, Me.lbDate, Me.lbDetails, Me.lbTitle, Me.lbShipTo, Me.lbOrderID})
-			Me.Detail.Font = New System.Drawing.Font("Times New Roman", 10F)
+			Me.Detail.Font = New DevExpress.Drawing.DXFont("Times New Roman", 10F)
 			Me.Detail.HeightF = 127.6042F
 			Me.Detail.Name = "Detail"
 			Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F)
@@ -128,7 +128,7 @@
 			' lbDate
 			' 
 			Me.lbDate.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[OrderDate]")})
-			Me.lbDate.Font = New System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Italic)
+			Me.lbDate.Font = New DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Italic)
 			Me.lbDate.LocationFloat = New DevExpress.Utils.PointFloat(101.6667F, 10.00001F)
 			Me.lbDate.Name = "lbDate"
 			Me.lbDate.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -139,7 +139,7 @@
 			' 
 			' lbDetails
 			' 
-			Me.lbDetails.Font = New System.Drawing.Font("Times New Roman", 12F)
+			Me.lbDetails.Font = New DevExpress.Drawing.DXFont("Times New Roman", 12F)
 			Me.lbDetails.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 84.6042F)
 			Me.lbDetails.Name = "lbDetails"
 			Me.lbDetails.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -152,7 +152,7 @@
 			' lbShipTo
 			' 
 			Me.lbShipTo.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() { New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", resources.GetString("lbShipTo.ExpressionBindings"))})
-			Me.lbShipTo.Font = New System.Drawing.Font("Times New Roman", 10F)
+			Me.lbShipTo.Font = New DevExpress.Drawing.DXFont("Times New Roman", 10F)
 			Me.lbShipTo.LocationFloat = New DevExpress.Utils.PointFloat(352.5F, 67.00001F)
 			Me.lbShipTo.Multiline = True
 			Me.lbShipTo.Name = "lbShipTo"
@@ -168,7 +168,7 @@
 			' 
 			' lbHeader
 			' 
-			Me.lbHeader.Font = New System.Drawing.Font("Times New Roman", 36F)
+			Me.lbHeader.Font = New DevExpress.Drawing.DXFont("Times New Roman", 36F)
 			Me.lbHeader.LocationFloat = New DevExpress.Utils.PointFloat(0F, 10F)
 			Me.lbHeader.Name = "lbHeader"
 			Me.lbHeader.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)

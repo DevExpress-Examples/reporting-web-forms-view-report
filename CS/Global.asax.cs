@@ -9,7 +9,7 @@ using System.Web.SessionState;
 using T132094.Services;
 
 namespace T132094 {
-    public class Global : System.Web.HttpApplication {
+    public class Global_asax : System.Web.HttpApplication {
 
         protected void Application_Start(object sender, EventArgs e) {
             DefaultWebDocumentViewerContainer.Register<IReportProvider, CustomReportProvider>();            

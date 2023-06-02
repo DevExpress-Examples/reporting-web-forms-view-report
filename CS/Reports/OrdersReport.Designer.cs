@@ -90,7 +90,7 @@
             // 
             this.lbOrderID.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[OrderID]")});
-            this.lbOrderID.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
+            this.lbOrderID.Font = new DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.lbOrderID.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
             this.lbOrderID.Name = "lbOrderID";
             this.lbOrderID.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -108,7 +108,7 @@
             // 
             this.lbTitle.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Title]")});
-            this.lbTitle.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
+            this.lbTitle.Font = new DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Bold);
             this.lbTitle.LocationFloat = new DevExpress.Utils.PointFloat(10.00012F, 44.00002F);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -126,7 +126,7 @@
             this.lbTitle,
             this.lbShipTo,
             this.lbOrderID});
-            this.Detail.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.Detail.Font = new DevExpress.Drawing.DXFont("Times New Roman", 10F);
             this.Detail.HeightF = 127.6042F;
             this.Detail.Name = "Detail";
             this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
@@ -137,7 +137,7 @@
             // 
             this.lbDate.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[OrderDate]")});
-            this.lbDate.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Italic);
+            this.lbDate.Font = new DevExpress.Drawing.DXFont("Times New Roman", 10F, DevExpress.Drawing.DXFontStyle.Italic);
             this.lbDate.LocationFloat = new DevExpress.Utils.PointFloat(101.6667F, 10.00001F);
             this.lbDate.Name = "lbDate";
             this.lbDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -148,7 +148,7 @@
             // 
             // lbDetails
             // 
-            this.lbDetails.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.lbDetails.Font = new DevExpress.Drawing.DXFont("Times New Roman", 12F);
             this.lbDetails.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 84.6042F);
             this.lbDetails.Name = "lbDetails";
             this.lbDetails.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -162,7 +162,7 @@
             // 
             this.lbShipTo.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", resources.GetString("lbShipTo.ExpressionBindings"))});
-            this.lbShipTo.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.lbShipTo.Font = new DevExpress.Drawing.DXFont("Times New Roman", 10F);
             this.lbShipTo.LocationFloat = new DevExpress.Utils.PointFloat(352.5F, 67.00001F);
             this.lbShipTo.Multiline = true;
             this.lbShipTo.Name = "lbShipTo";
@@ -178,7 +178,7 @@
             // 
             // lbHeader
             // 
-            this.lbHeader.Font = new System.Drawing.Font("Times New Roman", 36F);
+            this.lbHeader.Font = new DevExpress.Drawing.DXFont("Times New Roman", 36F);
             this.lbHeader.LocationFloat = new DevExpress.Utils.PointFloat(0F, 10F);
             this.lbHeader.Name = "lbHeader";
             this.lbHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);

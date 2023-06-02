@@ -54,7 +54,7 @@
             // 
             // lbHeader
             // 
-            this.lbHeader.Font = new System.Drawing.Font("Times New Roman", 36F);
+            this.lbHeader.Font = new DevExpress.Drawing.DXFont("Times New Roman", 36F);
             this.lbHeader.LocationFloat = new DevExpress.Utils.PointFloat(0F, 10.00001F);
             this.lbHeader.Name = "lbHeader";
             this.lbHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -68,7 +68,7 @@
             // 
             this.lbDescription.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Description]")});
-            this.lbDescription.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.lbDescription.Font = new DevExpress.Drawing.DXFont("Times New Roman", 14F);
             this.lbDescription.LocationFloat = new DevExpress.Utils.PointFloat(220F, 53.08332F);
             this.lbDescription.Multiline = true;
             this.lbDescription.Name = "lbDescription";
@@ -101,7 +101,7 @@
             // 
             this.lbCategoryName.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[CategoryName]")});
-            this.lbCategoryName.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
+            this.lbCategoryName.Font = new DevExpress.Drawing.DXFont("Times New Roman", 16F, DevExpress.Drawing.DXFontStyle.Bold);
             this.lbCategoryName.LocationFloat = new DevExpress.Utils.PointFloat(220F, 10.00001F);
             this.lbCategoryName.Name = "lbCategoryName";
             this.lbCategoryName.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
