@@ -14,7 +14,7 @@ The client-side button `Click` event passes a report name to the client-side [Op
 
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
-* [ReportProvider.cs](./CS/Services/ReportProvider.cs (VB: [ReportProvider.vb](./VB/Services/ReportProvider.vb)))
+* [ReportProvider.cs](./CS/Services/ReportProvider.cs) (VB: [ReportProvider.vb](./VB/Services/ReportProvider.vb))
 
 ## Documentation
 - [Web Document Viewer](https://docs.devexpress.com/XtraReports/401850/web-reporting/web-document-viewer)
