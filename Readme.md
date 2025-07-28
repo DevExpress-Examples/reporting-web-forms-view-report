@@ -3,9 +3,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Reporting for Web Forms - How to Load a Report at Runtime in the Document Viewer
+# Reporting for Web Forms - Load a Report at Runtime in the Document Viewer
 
-This example demonstrates how to load a report to the [Web Document Viewer](https://docs.devexpress.com/XtraReports/17738/web-reporting/asp-net-webforms-reporting/document-viewer) control at runtime on a button click. 
+This example loads a report to the [Web Document Viewer](https://docs.devexpress.com/XtraReports/17738/web-reporting/asp-net-webforms-reporting/document-viewer) control at runtime on a button click. 
 
 ![Document Viewer Loads a Report at Runtime](Images/screenshot.png)
 
