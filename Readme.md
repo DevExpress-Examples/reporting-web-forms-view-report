@@ -26,7 +26,7 @@ The client-side button `Click` event passes a report name to the client-side [Op
 
 - [Reporting for WebForms - How to Dynamically Generate a Report for a Table or Query](https://github.com/DevExpress-Examples/reporting-generate-report-dynamically-for-specified-query)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-view-report&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-view-report&~~~was_helpful=no)
 
